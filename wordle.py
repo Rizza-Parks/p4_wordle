@@ -1,4 +1,8 @@
-word = "great"
+
+possible_words = ["great", "swift", "slime", "swarm", "ranch"]
+
+word = random.choice(possible_words)
+print(word)
 
 default = '\033[0m'
 green = '\033[92m'
